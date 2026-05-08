@@ -1,0 +1,49 @@
+{
+  "name": "@shoaibaftabtech/icons",
+  "version": "1.0.0",
+  "description": "Shoaib Aftab Icons - A massive icon library with 500+ standard and brand SVGs with zero dependencies. 100% self-contained.",
+  "main": "dist/sa-icons.min.css",
+  "style": "dist/sa-icons.min.css",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
+  ],
+  "publishConfig": { "access": "public" },
+  "scripts": {
+    "prebuild": "node scripts/generate_icons.js",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "rtl",
+    "shoaib-aftab",
+    "shoaib-aftab-icons",
+    "sa-icons",
+    "zero-dependencies"
+  ],
+  "author": {
+    "name": "Shoaib Aftab Tech",
+    "email": "tech@shoaibaftab.com",
+    "url": "https://shoaibaftab.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShoaibAftabTech/shoaib-aftab-icons/issues"
+  },
+  "homepage": "https://github.com/ShoaibAftabTech/shoaib-aftab-icons#readme",
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "lucide-static": "^0.477.0",
+    "simple-icons": "^14.1.0"
+  }
+}
