@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://shoaibaftab.com/images/logo.svg" alt="Shoaib Aftab Tech Logo" width="300">
+  <img src="https://shoaibaftab.com/images/logo.png" alt="Shoaib Aftab Tech Logo" width="300">
   <h1>Shoaib Aftab Icon Library</h1>
   <p><strong>A massive icon library with 500+ standard and brand SVGs with zero dependencies. 100% self-contained.</strong></p>
 
